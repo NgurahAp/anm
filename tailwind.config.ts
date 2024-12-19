@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        urbanist: ["var(--font-urbanist)"],
+        poppins: ["var(--font-poppins)"],
+      },
     },
   },
   plugins: [],
