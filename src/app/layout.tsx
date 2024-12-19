@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Urbanist, Poppins } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/landing/ui/Navbar";
+import Footer from "./components/landing/ui/Footer";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], 
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
   variable: "--font-urbanist",
 });
@@ -69,9 +71,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${urbanist.variable} ${poppins.variable}`}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="flex space-x-6">
               <Link
-                href="#home"
+                href="/"
                 className="text-gray-900 hover:text-red-500 px-3 py-1 text-base font-medium border-b border-transparent hover:border-red-500 transition-all duration-300"
               >
                 Home
