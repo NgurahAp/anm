@@ -28,7 +28,7 @@ const products = [
     description: "MDS-3000 dapat mengukur kapasitas maksimum hingga 3kg.",
     image: "/landing/mds-3000.jpeg",
     alt: "Gold Meter & Precious Metal Tester",
-    link: `/products/Elektronik20Densimeter%20MDS-3000`,
+    link: `/products/Elektronik%20Densimeter%20MDS-3000`,
     padding: "mt-[1rem]", 
   },
 ];
