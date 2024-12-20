@@ -39,12 +39,12 @@ export default function ProductDetail({ params }: PageProps) {
     <section>
       <div className="min-h-screen px-10 pt-32 pb-10">
         <div className="flex">
-          <div className="w-1/2 pl-20 pr-16">
+          <div className="w-1/2 pl-20 ">
             <Image
               src={product.image}
               alt={product.name}
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               priority
             />
             <h3 className="pt-8 pb-2 font-urbanist text-xl font-extrabold">

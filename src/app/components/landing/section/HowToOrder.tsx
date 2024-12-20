@@ -20,9 +20,9 @@ const HowToOrder = () => {
             <Image
               src="/landing/konsultasi_product.png"
               alt="Gold Meter & Precious Metal Tester"
-              className=" h-48 object-cover"
-              width={235}
-              height={144}
+              className=" "
+              width={285}
+              height={194}
             />
           </div>
           <div className="p-3 flex flex-col items-center font-poppins">
@@ -43,9 +43,9 @@ const HowToOrder = () => {
             <Image
               src="/landing/penawaran_harga.png"
               alt="Gold Meter & Precious Metal Tester"
-              className=" h-48 object-cover"
-              width={235}
-              height={144}
+              className=" "
+              width={285}
+              height={194}
             />
           </div>
           <div className="p-3 flex flex-col items-center font-poppins">
@@ -65,9 +65,9 @@ const HowToOrder = () => {
             <Image
               src="/landing/proses_pengiriman.png"
               alt="Gold Meter & Precious Metal Tester"
-              className=" h-48 object-cover"
-              width={235}
-              height={144}
+              className=" "
+              width={285}
+              height={194}
             />
           </div>
           <div className="p-3 flex flex-col items-center font-poppins">

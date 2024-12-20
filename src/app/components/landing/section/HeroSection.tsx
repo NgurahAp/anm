@@ -3,18 +3,18 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="bg-white h-[86vh] flex items-center relative">
-      <div className="w-2/3 pl-20 font-urbanist">
-        <h2 className="text-3xl font-semibold text-gray-800">
+    <section id="home" className="bg-white h-[86vh] px-20 flex items-center relative">
+      <div className="w-2/3 font-urbanist">
+        <h2 className="text-2xl font-semibold text-gray-800">
           PT. Anugrah Niaga Mandiri
         </h2>
         <h1 className="py-6 text-5xl font-extrabold text-gray-900">
           Solusi Lengkap untuk Kebutuhan <br />
-          <span className="text-7xl font-extrabold text-green-700">
+          <span className="text-6xl font-extrabold text-green-700">
             Peralatan Laboratorium
           </span>
         </h1>
-        <p className="font-poppins text-xl text-gray-700 italic pb-10">
+        <p className="font-poppins text-lg text-gray-700 italic pb-10">
           Distributor dan Agen Terpercaya Alat Laboratorium Berkualitas Tinggi
           di Indonesia
         </p>
@@ -25,12 +25,12 @@ const HeroSection = () => {
           Konsultasi Sekarang
         </Link>
       </div>
-      <div className="w-1/3">
+      <div className="w-1/3 flex justify-end">
         <Image
           src="/landing/densimeter.jpg"
           alt="Densimeter"
-          width={288}
-          height={323}
+          width={360}
+          height={403}
         />
       </div>
       <Image
