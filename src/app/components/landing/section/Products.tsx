@@ -10,7 +10,7 @@ const products = [
     image: "/landing/md-300s.jpeg",
     alt: "Gold Meter & Precious Metal Tester",
     link: `/products/Alfa%20Mirage%20Densimeter%20MD-300S`,
-    padding: "mt-[1.2rem]", // Padding khusus
+    padding: "mt-[1.2rem]", 
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const products = [
     image: "/landing/mds-300.jpeg",
     alt: "Gold Meter & Precious Metal Tester",
     link: `/products/Elektronik%20Densimeter%20MDS-300`,
-    padding: null, // Gunakan padding default
+    padding: null, 
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const products = [
     image: "/landing/mds-3000.jpeg",
     alt: "Gold Meter & Precious Metal Tester",
     link: `/products/Elektronik20Densimeter%20MDS-3000`,
-    padding: "mt-[1rem]", // Padding khusus
+    padding: "mt-[1rem]", 
   },
 ];
 

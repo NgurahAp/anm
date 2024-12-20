@@ -39,7 +39,7 @@ const HeroSection = () => {
         height={23}
         alt="Logo PT Anugrah Niaga Mandiri"
         className="absolute bottom-12 right-10"
-      ></Image>
+      />
     </section>
   );
 };
