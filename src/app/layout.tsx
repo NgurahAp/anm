@@ -72,6 +72,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/logo.jpeg" type="image/jpeg" />
+      </head>
       <body className={`${urbanist.variable} ${poppins.variable}`}>
         <Navbar />
         {children}
