@@ -64,7 +64,7 @@ export default function ProductDetail({ params }: PageProps) {
 
   return (
     <section>
-      <div className="min-h-screen px-10 pt-32">
+      <div className="min-h-screen px-10 pt-32 pb-10">
         <div className="flex">
           <div className="w-1/2 pl-20 pr-16">
             <Image
@@ -142,7 +142,8 @@ export default function ProductDetail({ params }: PageProps) {
           </div>
         </div>
       </div>
-      <div></div>
+      <div>
+      </div>
     </section>
   );
 }
